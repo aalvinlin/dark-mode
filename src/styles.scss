@@ -251,3 +251,20 @@ text-align: left;
     border: none;
   }
 }
+
+.dark-mode-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-mode-label {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.dark-mode-label-toggled {
+  color: #CCCCCC;
+}

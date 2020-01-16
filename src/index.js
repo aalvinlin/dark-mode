@@ -8,6 +8,9 @@ import Navbar from "./components/Navbar";
 import "./styles.scss";
 
 const App = () => {
+
+  window.localStorage.clear()
+
   const [coinData, setCoinData] = useState([]);
 
   useEffect(() => {
